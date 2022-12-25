@@ -12,14 +12,19 @@
         <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/smile_mid_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
          <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/smile_start_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
           <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_close_eyes_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
-           <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
-            <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_mid_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
-             <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_password_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
-              <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_start_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
+          
               
     
   </tr>
  </table>
+ 
+ <table>
+  <tr>
+     <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
+            <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_mid_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
+             <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_password_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
+              <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/android/teddy_start_google-pixel4xl-ohsoorange-portrait.png" height="480px"></td>
+    </tr></table>
  
 
 </br>
