@@ -16,6 +16,7 @@ class _PenguinDanceState extends State<PenguinDance> {
   double _speed = 1.0;
   double _rockTime = 0.0;
   bool _isPaused = false;
+  var isPlaying = false;
 
   ActorAnimation? _rock;
 
@@ -51,9 +52,9 @@ class _PenguinDanceState extends State<PenguinDance> {
   Widget penguin() {
     return Positioned.fill(
         child: FlareActor(
-      "assets/Penguin.flr",
+      PENGUIN_FILE,
       alignment: Alignment.center,
-      isPaused: _isPaused,
+      isPaused: isPlaying,
       fit: BoxFit.cover,
       animation: "walk",
       //controller: this
@@ -72,16 +73,19 @@ class _PenguinDanceState extends State<PenguinDance> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-               Text(PAUSE, style: const TextStyle(color: Colors.white)),
-
-              Checkbox(
-                value: _isPaused,
-                onChanged: (value) {
-                  setState(() {
-                    _isPaused = value!;
-                  });
-                },
-              )
+              const Text(PAUSE, style: TextStyle(color: Colors.white)),
+              IconButton(
+                  icon: isPlaying
+                      ? const Icon(
+                          Icons.play_circle_outline,
+                          size: 40.0,
+                        )
+                      : const Icon(Icons.pause_circle_outline, size: 40.0),
+                  onPressed: () {
+                    setState(() {
+                      isPlaying = !isPlaying;
+                    });
+                  }),
             ],
           )),
     ]));

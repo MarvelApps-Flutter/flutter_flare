@@ -34,9 +34,9 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
-        title: Text(
+        title: const Text(
           FLARE_APP_BAR,
-          style: const TextStyle(color: Colors.blue),
+          style: TextStyle(color: Colors.blue),
         ),
       ),
       body: Center(
@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 300,
               width: 300,
               child: FlareActor(
-                'assets/happiness_emoji.flr',
+                HAPPY_FILE,
                 alignment: Alignment.center,
                 fit: BoxFit.contain,
                 controller: _smileyController,

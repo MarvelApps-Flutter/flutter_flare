@@ -59,7 +59,7 @@ class _TeddyHomeState extends State<TeddyHome> {
                           padding:
                               const EdgeInsets.only(left: 30.0, right: 30.0),
                           child: FlareActor(
-                            "assets/Teddy.flr",
+                            TEDDY_FILE,
                             shouldClip: false,
                             alignment: Alignment.bottomCenter,
                             fit: BoxFit.contain,
@@ -96,7 +96,7 @@ class _TeddyHomeState extends State<TeddyHome> {
                                   },
                                 ),
                                 SigninButton(
-                                    child:  Text(SIGNIN_BUTTON,
+                                    child: Text(SIGNIN_BUTTON,
                                         style: const TextStyle(
                                             fontFamily: "RobotoMedium",
                                             fontSize: 16,
