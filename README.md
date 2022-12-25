@@ -32,7 +32,6 @@
     <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/ios/home_page_iphone13promaxgold_portrait.png" height="480px"></td>
     <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/ios/penguin_pause_iphone13promaxgold_portrait.png" height="480px"></td>
     <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/ios/penguin_play_iphone13promaxgold_portrait.png" height="480px"></td>
-    
     <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/ios/smile_complete_iphone13promaxgold_portrait.png" height="480px"></td>
     <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/ios/smile_done_iphone13promaxgold_portrait.png" height="480px"></td>
     <td><img src="https://github.com/MarvelApps-Flutter/flutter_flare/blob/main/screenshot/ios/smile_mid_iphone13promaxgold_portrait.png" height="480px"></td>
